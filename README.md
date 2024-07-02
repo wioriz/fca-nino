@@ -16,16 +16,16 @@ See the [full changelog](/CHANGELOG.md) for release details.
 ## Install
 If you just want to use fca-unofficial, you should use this command:
 ```bash
-npm install @wioriz/fca-unofficial
+npm install fca-nino
 ```
-It will download ` @niio-team/fca-unofficial` from NPM repositories
+It will download ` fca-nino` from NPM repositories
 
 ## Testing your bots
 If you want to test your bots without creating another account on Facebook, you can use [Facebook Whitehat Accounts](https://www.facebook.com/whitehat/accounts/).
 
 ## Example Usage
 ```javascript
-const login = require("@wioriz/fca-unofficial");
+const login = require("fca-nino");
 
 // Create simple echo bot
 login({email: "FB_EMAIL", password: "FB_PASSWORD"}, (err, api) => {
