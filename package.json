@@ -1,5 +1,5 @@
 {
-  "name": "@wioriz-dev/fca-unofficial",
+  "name": "fca-nino",
   "version": "1.1.0",
   "description": "A Facebook chat API that doesn't rely on XMPP. Will NOT be deprecated after April 30th 2015.",
   "scripts": {
