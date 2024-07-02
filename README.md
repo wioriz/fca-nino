@@ -16,7 +16,7 @@ See the [full changelog](/CHANGELOG.md) for release details.
 ## Install
 If you just want to use fca-unofficial, you should use this command:
 ```bash
-npm install @niio-team/fca-unofficial
+npm install @wioriz/fca-unofficial
 ```
 It will download ` @niio-team/fca-unofficial` from NPM repositories
 
@@ -25,7 +25,7 @@ If you want to test your bots without creating another account on Facebook, you 
 
 ## Example Usage
 ```javascript
-const login = require("@niio-team/fca-unofficial");
+const login = require("@wioriz/fca-unofficial");
 
 // Create simple echo bot
 login({email: "FB_EMAIL", password: "FB_PASSWORD"}, (err, api) => {
